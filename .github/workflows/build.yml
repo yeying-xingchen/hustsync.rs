@@ -24,5 +24,5 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v6.0.0
       with:
-        path: .\target\debug
+        path: /home/runner/work/hustsync.rs/hustsync.rs/target/debug/
           
